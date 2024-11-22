@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página pessoal de exemplo">
+  <title>Página Larissa </title>
+  <!-- Link para o Bootstrap -->
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="shortcut icon" href="img/IMG_4457.ico"
+  <!-- Link para CSS adicional -->
+
+  <style>
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .hero {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="hero text-center">
+    <img src="img/IMG_4457.jpeg"alt="Foto de perfil" class="profile-img mb-3">
+    <h1>Larissa Marques </h1>
+    <p class="lead">Desenvolvedora | Designer | estudante de tecnologia</p>
+    <div>
+      <a href="#about" class="btn btn-primary">Sobre Mim</a>
+      <a href="#projects" class="btn btn-outline-secondary">Cursos</a>
+    </div>
+  </header>
+
+  <!-- Sobre Mim -->
+  <section id="about" class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <h2>Sobre Mim</h2>
+        <p>
+          Olá! Meu nome é larissa marques, Tenho 15 anos, estou cursando o ensino medio
+        e faço curso de tecnologia basica,nasci em 2009 e sou paulista
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projects" class="container py-5 bg-light">
+    <div class="text-center mb-5">
+      <h2>Meus Cursos</h2>
+      <p class="lead">Confira alguns dos Cursos que realizei recentemente:</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/04185112037390.webp" class="card-img-top" alt=" Curso 1" >
+          <div class="card-body">
+            <h5 class="card-title"> Google inteligência artificial</h5>
+            <p class="card-text"><p>
+                A inteligência artificial (IA) no contexto do Google refere-se ao uso de tecnologias 
+                avançadas para permitir que as máquinas simulem processos inteligentes, como o raciocínio, 
+                aprendizado e resolução de problemas, de forma similar ao comportamento humano.</p> 
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/o-que-e-google-cloud-platform.webp" card-img-top" alt="Projeto 2">
+          <div class="card-body">
+            <h5 class="card-title">Google cloud</h5>
+            <p class="card-text"><p>Google Cloud é a plataforma de computação em nuvem do Google
+                , oferecendo uma ampla gama de serviços e ferramentas para empresas e desenvolvedores. Ela permite que organizações hospedem, gerenciem e desenvolvam aplicativos e sistemas com escalabilidade
+                , segurança e inovação, sem precisar se preocupar com a infraestrutura física.</p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/800.jpeg" class="card-img-top" alt="Projeto 3">
+          <div class="card-body">
+            <h5 class="card-title">Desenvolvedor de android</h5>
+            <p class="card-text">Um desenvolvedor de Android é um especialista
+                 em tecnologia que cria e otimiza aplicativos para o sistema operacional Android.
+                3 O Google disponibiliza o código do sistema operacional sob licença de código aberto</p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contact" class="container py-5">
+    <div class="text-center mb-5">
+      <h2>Contato</h2>
+      <p class="lead">Gostou do que viu? Entre em contato!</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Seu nome </label>
+            <input type="text" class="form-control" id="name" placeholder="Seu Nome">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Seu Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Seu Email">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Sua Mensagem"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="text-center py-4 bg-dark text-light">
+    <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Link para o Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
